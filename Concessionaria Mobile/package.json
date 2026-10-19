@@ -1,0 +1,28 @@
+{
+  "name": "concessionaria-mobile",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios"
+  },
+  "dependencies": {
+    "expo": "~57.0.14",
+    "expo-status-bar": "~57.0.1",
+    "@expo/vector-icons": "^15.1.1",
+    "react": "19.2.3",
+    "react-native": "0.86.2",
+    "react-native-safe-area-context": "^5.9.1",
+    "react-native-screens": "^4.27.0",
+    "@react-navigation/native": "^7.3.16",
+    "@react-navigation/native-stack": "^7.18.8",
+    "@react-navigation/bottom-tabs": "^7.18.16",
+    "@react-native-async-storage/async-storage": "^3.1.1"
+  },
+  "private": true,
+  "description": "App mobile (Expo/React Native) para os vendedores verem os carros disponíveis e registrarem vendas. Conecta na API Java (Spring Boot) -- não acessa o banco de dados diretamente.",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
